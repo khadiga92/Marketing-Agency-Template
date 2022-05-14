@@ -1,0 +1,107 @@
+/* Colors */
+.orange{
+    color: var(--bs-orange);
+}
+
+.teal{
+    color: var(--bs-teal);
+}
+
+.bg-orange{
+    background: var(--bs-orange);
+}
+
+.bg-teal{
+    background: var(--bs-teal);
+}
+
+
+/* Header */
+header{
+    min-height: 100vh;
+    background: url(../images/bg.jpg) center/cover no-repeat;
+}
+
+.bottom-header .row > *{
+    min-height: 170px;
+    background: rgba(0, 128, 0, 0.5);
+}
+
+.bottom-header .row > *:hover{
+    background: rgba(255, 166, 0, 0.616);
+}
+
+/* Section-2 cards */
+.card{
+    min-height: 260px;
+}
+
+.sec-2 .card-img-top{
+    object-fit: cover;
+    width:80px;
+}
+
+/* section-3 about */
+.sec-3 div.row div:nth-of-type(2){
+    background: url(../images/about-pic2.jpg) center/cover no-repeat ;
+}
+
+.sec-3 div.row div:nth-of-type(4){
+    background: url(../images/about-pic1.jpg) center/cover no-repeat ;
+}
+
+.sec-3 div.row div:nth-of-type(6){
+    background: url(../images/about-pic3.jpg) center/cover no-repeat ;
+}
+
+/* section-4 process */
+.sec-4{
+    background: url(../images/process-bg.jpg) center/cover no-repeat ;
+    min-height: 100vh;
+}
+
+.sec-4 div.row div:nth-of-type(1){
+    background: url(../images/p-bg1.jpg) center/cover no-repeat;
+    min-height: 280px;
+}
+.sec-4 div.row div:nth-of-type(2){
+    background: url(../images/p-bg2.jpg) center/cover no-repeat;
+    min-height: 280px;
+}
+.sec-4 div.row div:nth-of-type(3){
+    background: url(../images/p-bg3.jpg) center/cover no-repeat;
+    min-height: 280px;
+}
+.sec-4 div.row div:nth-of-type(4){
+    background: url(../images/p-bg4.jpg) center/cover no-repeat;
+    min-height: 280px;
+}
+
+/* Section-6 blog */
+.tall-card{
+    min-height: 720px;
+}
+
+/* Map section */
+.map{
+    position: relative;
+}
+map{
+    display: inline-block;
+    height: 50vh;
+    width: 100%;
+}
+
+.contacts{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    z-index: 100;
+}
+
+/* Footer */
+
+footer{
+    background: rgb(117, 116, 116);
+    /* min-height: 200px; */
+}
